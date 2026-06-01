@@ -1,0 +1,11 @@
+@app.get("/search")
+def search_records(
+    query: str,
+    db: Session = Depends(get_db)
+):
+
+    results = db.query(Record).filter(
+        Record.title.contains(query)
+    ).all()
+
+    return results
