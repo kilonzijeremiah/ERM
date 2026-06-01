@@ -1,0 +1,21 @@
+erms-system/
+│
+├── backend/
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── database.py
+│   │   ├── models/
+│   │   ├── routers/
+│   │   ├── schemas/
+│   │   ├── auth/
+│   │   ├── utils/
+│   │   └── services/
+│   │
+│   ├── uploads/
+│   ├── requirements.txt
+│   └── .env
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   └── package.json
