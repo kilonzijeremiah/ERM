@@ -9,7 +9,7 @@ function Login() {
   const login = async () => {
 
     const res = await axios.post(
-      "http://localhost:8000/login",
+      "http://127.0.0.1:5000/",
       {
         email,
         password
